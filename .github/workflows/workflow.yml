@@ -1,4 +1,4 @@
-name: Build on PR merge (no dev-build)
+name: Build on PR merge
 
 on:
   pull_request:
@@ -180,4 +180,5 @@ jobs:
             dist
             out
             build
+
             release || true
