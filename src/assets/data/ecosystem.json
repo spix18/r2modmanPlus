@@ -19918,6 +19918,10 @@
               "identifier": "622650"
             },
             {
+              "platform": "other",
+              "identifier": null
+            },
+            {
               "platform": "epic-games-store",
               "identifier": "39700e23ec114d7581aedea23779ce2d"
             }
@@ -20979,6 +20983,10 @@
             {
               "platform": "steam",
               "identifier": "2810780"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Forsaken Frontiers",
@@ -23740,6 +23748,10 @@
             {
               "platform": "steam",
               "identifier": "2171630"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Return From Core/Return From Core",
