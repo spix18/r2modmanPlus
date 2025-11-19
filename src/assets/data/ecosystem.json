@@ -19668,6 +19668,10 @@
             {
               "platform": "steam",
               "identifier": "2286780"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Aeruta",
@@ -20031,6 +20035,10 @@
             {
               "platform": "steam",
               "identifier": "3821880"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "BeetleBall Playtest",
@@ -21175,6 +21183,10 @@
             {
               "platform": "steam",
               "identifier": "3551340"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Football Manager 26",
@@ -23006,6 +23018,10 @@
             {
               "platform": "steam",
               "identifier": "384490"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Necropolis",
@@ -24561,6 +24577,10 @@
             {
               "platform": "steam",
               "identifier": "2289750"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Super Fantasy Kingdom",
@@ -24860,6 +24880,10 @@
             {
               "platform": "steam",
               "identifier": "3817090"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Vigil",
