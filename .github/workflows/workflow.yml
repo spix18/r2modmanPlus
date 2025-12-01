@@ -1,0 +1,189 @@
+name: Build on PR merge
+
+on:
+  pull_request:
+    types:
+      - closed
+  workflow_dispatch:
+
+concurrency:
+  group: build-and-release-on-merge-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  ECOSYSTEM_PATH: src/assets/data/ecosystem.json
+  ADD_OTHER_SCRIPT: .github/scripts/add_other.py
+
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'develop')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run add_other script
+        id: run_add
+        run: |
+          if [ ! -f "${{ env.ADD_OTHER_SCRIPT }}" ]; then
+            echo "ERROR: ${ADD_OTHER_SCRIPT} not found"
+            exit 2
+          fi
+          python3 "${{ env.ADD_OTHER_SCRIPT }}"
+          git status --porcelain || true
+
+      - name: Commit & push changes to develop, or open PR if push blocked
+        id: push_or_pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_BRANCH: develop
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+            echo "pushed=false" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          BRANCH="automation/add-other-$(date +%s)"
+          git checkout -b "$BRANCH"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ env.ECOSYSTEM_PATH }}"
+          git commit -m "chore(automation): add 'other' distribution entries"
+          echo "Attempting to push changes directly to ${TARGET_BRANCH}..."
+          if git ls-remote --exit-code origin "${TARGET_BRANCH}"; then
+            set +e
+            git push origin "$BRANCH":"${TARGET_BRANCH}"
+            PUSH_EXIT=$?
+            set -e
+            if [ "$PUSH_EXIT" -eq 0 ]; then
+              echo "Pushed changes directly to ${TARGET_BRANCH}"
+              echo "pushed=true" >> "${GITHUB_OUTPUT}"
+              exit 0
+            else
+              echo "Direct push to ${TARGET_BRANCH} failed (likely branch protection). Will open a PR."
+            fi
+          fi
+          echo "Pushing branch ${BRANCH} and creating a PR to ${TARGET_BRANCH}..."
+          git push origin "$BRANCH"
+          PR_TITLE="chore(automation): add 'other' distribution entries (from workflow)"
+          PR_BODY="This PR was opened automatically by the CI to apply the add_other changes to ${TARGET_BRANCH}."
+          if command -v gh >/dev/null 2>&1; then
+            gh pr create --title "$PR_TITLE" --body "$PR_BODY" --head "$BRANCH" --base "${TARGET_BRANCH}"
+          else
+            REPO="${GITHUB_REPOSITORY}"
+            PAYLOAD=$(jq -n --arg title "$PR_TITLE" --arg head "$BRANCH" --arg base "${TARGET_BRANCH}" --arg body "$PR_BODY" '{title:$title, head:$head, base:$base, body:$body}')
+            curl -s -S -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${REPO}/pulls" -d "$PAYLOAD" > /dev/null
+          fi
+          echo "pushed=false" >> "${GITHUB_OUTPUT}"
+          echo "pr_created=true" >> "${GITHUB_OUTPUT}"
+
+  build:
+    name: Build
+    needs: prepare
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux
+          - os: windows-latest
+            platform: win
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'develop')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Ensure repo is on develop
+        run: |
+          git fetch origin develop:develop || true
+          git checkout develop || true
+          git pull origin develop || true
+
+      - name: Delete existing release/tag for version
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ ! -f package.json ]; then
+            exit 0
+          fi
+          VERSION="$(node -p "require('./package.json').version")"
+          TAG="v${VERSION}"
+          OWNER_REPO="${GITHUB_REPOSITORY}"
+          resp=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" "https://api.github.com/repos/${OWNER_REPO}/releases/tags/${TAG}" || true)
+          release_id=$(echo "${resp}" | jq -r '.id // empty' 2>/dev/null || true)
+          if [ -n "${release_id}" ]; then
+            echo "Deleting existing release ${TAG} (ID: ${release_id}) on ${{ matrix.platform }}"
+            curl -s -X DELETE -H "Authorization: token ${GITHUB_TOKEN}" "https://api.github.com/repos/${OWNER_REPO}/releases/${release_id}" || true
+            curl -s -X DELETE -H "Authorization: token ${GITHUB_TOKEN}" "https://api.github.com/repos/${OWNER_REPO}/git/refs/tags/${TAG}" || true
+          else
+            echo "No existing release found for ${TAG} on ${{ matrix.platform }}"
+          fi
+
+      - name: Enable Corepack
+        run: |
+          npm install -g corepack@latest --force
+          corepack enable
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.19.0
+          cache: yarn
+
+      - name: Install Yarn dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: (linux) Install bsdtar if needed
+        if: matrix.platform == 'linux'
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y libarchive-tools
+
+      - name: Release project
+        id: buildstep
+        uses: StarUbiquitous/command-output@v1.0.1
+        with:
+          run: yarn publish-${{ matrix.platform }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Log stderr if present
+        if: steps.buildstep.outputs.stderr != ''
+        continue-on-error: true
+        run: echo '${{ steps.buildstep.outputs.stderr }}'
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-${{ matrix.platform }}
+          path: |
+            dist/**
+            dist
+            out
+            build
+
+            release || true
