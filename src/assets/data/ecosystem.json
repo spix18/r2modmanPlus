@@ -20682,6 +20682,10 @@
             {
               "platform": "steam",
               "identifier": "2737070"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Crime Simulator",
@@ -24681,6 +24685,10 @@
             {
               "platform": "steam",
               "identifier": "387990"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Scrap Mechanic",
