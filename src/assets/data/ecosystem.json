@@ -20090,6 +20090,10 @@
             {
               "platform": "steam",
               "identifier": "1281040"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Baby Steps",
@@ -20697,6 +20701,10 @@
             {
               "platform": "steam",
               "identifier": "3548580"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Chill with You Lo-Fi Story",
@@ -21040,6 +21048,10 @@
             {
               "platform": "steam",
               "identifier": "1782210"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Crab Game",
@@ -21182,6 +21194,10 @@
             {
               "platform": "steam",
               "identifier": "2258670"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Crawlspace 2",
@@ -22264,6 +22280,10 @@
             {
               "platform": "steam",
               "identifier": "2482250"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Goblin Buster",
@@ -24074,6 +24094,10 @@
             {
               "platform": "steam",
               "identifier": "3846120"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "MineMogul",
@@ -24556,6 +24580,10 @@
             {
               "platform": "steam",
               "identifier": "2168680"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Nuclear Option",
@@ -25444,6 +25472,10 @@
             {
               "platform": "steam",
               "identifier": "3298460"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Pushing It! Together Sisyphus Co-op",
@@ -25687,6 +25719,10 @@
             {
               "platform": "steam",
               "identifier": "2256450"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "RAM Random Access Mayhem",
@@ -26057,6 +26093,10 @@
             {
               "platform": "steam",
               "identifier": "3949040"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Ride",
@@ -26837,6 +26877,10 @@
             {
               "platform": "steam",
               "identifier": "3925760"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Unfair Flips",
