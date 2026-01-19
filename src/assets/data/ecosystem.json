@@ -54,7 +54,8 @@
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
             "mtd",
-            "20mtd"
+            "20mtd",
+            "黎明前的20分钟"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -146,7 +147,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "九王"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -280,7 +281,8 @@
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
             "ato",
-            "ao"
+            "ao",
+            "横跨方尖碑"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -372,7 +374,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ats"
+            "ats",
+            "风暴之城"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -593,7 +596,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "传说酒馆"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -725,7 +728,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "浮空岛"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -832,7 +837,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "au"
+            "au",
+            "太空狼人杀",
+            "在我们之中"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -980,7 +987,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "adv"
+            "adv",
+            "远古地牢"
           ],
           "packageLoader": "none",
           "installRules": [],
@@ -1073,7 +1081,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "动脉瘤四号城"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -1207,7 +1215,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "act"
+            "act",
+            "蟹蟹寻宝奇遇"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -1344,7 +1353,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "亚克斯·染谱"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -1772,7 +1781,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ac"
+            "ac",
+            "辐射谷物语"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -1902,7 +1912,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "adw"
+            "adw",
+            "阿特里奥：黑暗的荒野"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -2035,7 +2046,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "bttd"
+            "bttd",
+            "动物迷城"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -2179,7 +2191,8 @@
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
             "bh",
-            "farlands"
+            "farlands",
+            "背包英雄"
           ],
           "packageLoader": "melonloader",
           "installRules": [
@@ -2285,7 +2298,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "小丑牌"
+          ],
           "packageLoader": "lovely",
           "installRules": [],
           "relativeFileExclusions": null
@@ -2807,7 +2822,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "BL"
+            "BL",
+            "骨骼实验室"
           ],
           "packageLoader": "melonloader",
           "installRules": [
@@ -3214,7 +3230,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "bb"
+            "bb",
+            "波普乱斗",
+            "波普乱战"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -3344,7 +3362,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "土豆兄弟"
+          ],
           "packageLoader": "godotml",
           "installRules": [
             {
@@ -3436,7 +3456,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "cs"
+            "cs",
+            "城堡故事"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -3571,7 +3592,9 @@
           "additionalSearchStrings": [
             "calabp",
             "cal",
-            "abp"
+            "abp",
+            "猫是液体",
+            "猫是液态的：更好的地方"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -3662,7 +3685,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "超时空方舟"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -3761,7 +3786,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "cs2"
+            "cs2",
+            "都市：天际线2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -3891,7 +3917,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "cw"
+            "cw",
+            "前方高能",
+            "内容警告"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4105,7 +4133,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ck"
+            "ck",
+            "地心护核者",
+            "护核纪元"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4197,7 +4227,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "cotl"
+            "cotl",
+            "咩咩启示录"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4289,7 +4320,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "戴尔与道森文具店"
           ],
           "packageLoader": "recursive-melonloader",
           "installRules": [],
@@ -4382,7 +4413,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "深岩银河：幸存者"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4514,7 +4545,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "殁闪像素：窥然归源"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4647,7 +4678,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "de"
+            "de",
+            "极乐迪斯科"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -4779,7 +4811,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "极限距离"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -5003,7 +5035,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "dk"
+            "dk",
+            "穹顶守护者"
           ],
           "packageLoader": "godotml",
           "installRules": [
@@ -5099,7 +5132,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "渔帆暗涌"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -5229,7 +5264,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "黄昏"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -5371,7 +5406,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "DSP"
+            "DSP",
+            "戴森球计划"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -5604,7 +5640,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "etg"
+            "etg",
+            "挺进地牢",
+            "挺进枪牢"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -5833,7 +5871,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ftk"
+            "ftk",
+            "为了吾王"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -5925,7 +5964,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gb"
+            "gb",
+            "萌萌小人大乱斗"
           ],
           "packageLoader": "recursive-melonloader",
           "installRules": [],
@@ -6018,7 +6058,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gkfr"
+            "gkfr",
+            "加菲猫卡丁车：激情竞速"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6147,7 +6188,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gk"
+            "gk",
+            "心门守卫"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6281,7 +6323,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gm"
+            "gm",
+            "蠢蠢角斗士"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6411,7 +6454,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gw"
+            "gw",
+            "幽暗森林"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6543,7 +6587,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "再见，火山高校",
+            "再见火山高中"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6676,7 +6721,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "暴力沙盒"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -6818,7 +6863,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ghvr"
+            "ghvr",
+            "绿色地狱VR"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7014,7 +7060,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "gas"
+            "gas",
+            "袜罪并罚！"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7148,7 +7195,8 @@
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
             "Hot Dogs, Horseshoes & Hand Grenades",
-            "Hot Dogs, Horseshoes and Hand Grenades"
+            "Hot Dogs, Horseshoes and Hand Grenades",
+            "热狗马蹄铁和手榴弹"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7258,7 +7306,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "h2"
+            "h2",
+            "黑帝斯2",
+            "哈迪斯2"
           ],
           "packageLoader": "return-of-modding",
           "installRules": [],
@@ -7348,7 +7398,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "hb"
+            "hb",
+            "硬弹",
+            "坚硬的子弹"
           ],
           "packageLoader": "melonloader",
           "installRules": [
@@ -7464,7 +7516,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "艰难时刻3"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7621,7 +7673,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "hotds"
+            "hotds",
+            "垂死的太阳"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7713,7 +7766,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "hff"
+            "hff",
+            "人类一败涂地"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7846,7 +7900,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "iayb"
+            "iayb",
+            "我是你的野兽"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -7978,7 +8033,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "邪恶冥刻"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -8069,7 +8126,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "迷宫"
           ],
           "packageLoader": "recursive-melonloader",
           "installRules": [],
@@ -8167,7 +8224,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ltow"
+            "ltow",
+            "末班列车：逃离虫镇"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -8316,7 +8374,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "lc"
+            "lc",
+            "致命公司"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -8541,7 +8600,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "LLB"
+            "LLB",
+            "致命联盟：火焰"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -8633,7 +8693,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ls"
+            "ls",
+            "失落的天空"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -8901,7 +8962,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "魔力遗迹"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -9032,7 +9093,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "魔法工艺"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -9250,7 +9313,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ms"
+            "ms",
+            "米宝空间站"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -9381,7 +9445,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "米塔"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -9515,7 +9579,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "mt2"
+            "mt2",
+            "怪物火车2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -9743,7 +9808,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "MDS"
+            "MDS",
+            "我的梦想卧室"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -9886,7 +9952,8 @@
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
             "Nickelodeon All-Star Brawl",
-            "NASB"
+            "NASB",
+            "尼克儿童频道全明星大乱斗"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -10102,7 +10169,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "九日"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -10239,7 +10306,8 @@
             "northstar",
             "ns",
             "tf2",
-            "tf|2"
+            "tf|2",
+            "泰坦陨落2"
           ],
           "packageLoader": "northstar",
           "installRules": [
@@ -10315,7 +10383,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "or"
+            "or",
+            "异界疗法",
+            "奇怪的补救措施"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -10448,7 +10518,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "菜市场模拟器"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -10601,7 +10671,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "物质世界"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -10675,7 +10747,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "物质世界：决定版"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -10859,7 +10933,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "palworld"
+            "palworld",
+            "幻兽帕鲁"
           ],
           "packageLoader": "shimloader",
           "installRules": [],
@@ -10948,7 +11023,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "panicore"
+            "panicore",
+            "恐慌核心"
           ],
           "packageLoader": "shimloader",
           "installRules": [],
@@ -11038,7 +11114,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "帕格丽进入兔子洞",
+            "帕格丽抓兔子"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -11172,7 +11249,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "pq"
+            "pq",
+            "拼贴冒险传"
           ],
           "packageLoader": "melonloader",
           "installRules": [
@@ -11316,7 +11394,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "顶峰"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -11509,7 +11589,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "poy"
+            "poy",
+            "昔日山峰"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -11642,7 +11723,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "哥布林弹球"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -11732,7 +11815,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "等离子体"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -11870,7 +11955,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "pc"
+            "pc",
+            "药剂工艺"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -11962,7 +12048,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "plc"
+            "plc",
+            "脉冲星：失落的殖民地"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12096,7 +12183,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rf"
+            "rf",
+            "战地模拟器"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12188,7 +12276,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rec2"
+            "rec2",
+            "接收者2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12333,7 +12422,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "repo"
+            "repo",
+            "回收行动"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12497,7 +12587,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rotod"
+            "rotod",
+            "奥伯拉丁的回归",
+            "奥伯拉丁的归来"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12630,7 +12722,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rorr"
+            "rorr",
+            "雨中冒险：回归"
           ],
           "packageLoader": "return-of-modding",
           "installRules": [],
@@ -12777,7 +12870,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ROR2"
+            "ROR2",
+            "雨中冒险2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12849,7 +12943,8 @@
           "gameInstanceType": "server",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "ROR2"
+            "ROR2",
+            "雨中冒险2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -12941,7 +13036,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rg"
+            "rg",
+            "罗格：救世传说"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -13033,7 +13129,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "rt"
+            "rt",
+            "Rogue巨塔"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -13124,7 +13221,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "回合决斗"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -13486,7 +13585,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "绝命毒师模拟器"
           ],
           "packageLoader": "recursive-melonloader",
           "installRules": [],
@@ -13594,7 +13693,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "螺丝起子"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -13727,7 +13826,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "sod"
+            "sod",
+            "凶影疑云"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -13878,7 +13978,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "sol"
+            "sol",
+            "憎恶之影"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -14007,7 +14108,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "异形工厂2"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -14140,7 +14241,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "小骨：英雄杀手"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -14398,7 +14501,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "soc"
+            "soc",
+            "征服之歌"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -14532,7 +14636,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "sotf"
+            "sotf",
+            "森林之子"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -14664,7 +14769,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "堆叠大陆"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -14762,7 +14869,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "星辰沙海"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -14999,7 +15108,9 @@
           "additionalSearchStrings": [
             "bz",
             "sbz",
-            "s:bz"
+            "s:bz",
+            "深海迷航：零度之下",
+            "美丽水世界：零度之下"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -15117,7 +15228,10 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "深海迷航",
+            "美丽水世界"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -15219,7 +15333,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "地下世界"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -15485,7 +15599,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "火湖"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -15618,7 +15732,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "sh"
+            "sh",
+            "太阳港"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -15747,7 +15862,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "沉没之地"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -15876,7 +15993,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "多人超市"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16232,7 +16349,7 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "TCG卡牌商店模拟器"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16431,7 +16548,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "tt"
+            "tt",
+            "星核工厂"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16560,7 +16678,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "tok"
+            "tok",
+            "衔尾蛇国王"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16690,7 +16809,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "tpc"
+            "tpc",
+            "星球工匠"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16820,7 +16940,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "tf"
+            "tf",
+            "王权陨落"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -16957,7 +17078,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "TB"
+            "TB",
+            "海狸浮生记"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17072,7 +17194,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "Totally Accurate Battle Simulator"
+            "Totally Accurate Battle Simulator",
+            "全面战争模拟器"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17164,7 +17287,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "lbol"
+            "lbol",
+            "东方光耀夜"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17340,7 +17464,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "tc"
+            "tc",
+            "长号冠军"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17432,7 +17557,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "uch"
+            "uch",
+            "超级鸡马"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17565,7 +17691,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "uk"
+            "uk",
+            "疯狂连杀"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17708,7 +17835,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "vrising"
+            "vrising",
+            "夜族崛起"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -17812,7 +17940,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "英灵神殿"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -17890,7 +18020,9 @@
           ],
           "gameInstanceType": "server",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "英灵神殿"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -17987,7 +18119,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "眩晕2"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -18108,7 +18242,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "votv"
+            "votv",
+            "虚空之声"
           ],
           "packageLoader": "shimloader",
           "installRules": [],
@@ -18226,7 +18361,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "vc"
+            "vc",
+            "虚空航船"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -18377,7 +18513,9 @@
           ],
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "垂直起降"
+          ],
           "packageLoader": "bepinex",
           "installRules": [
             {
@@ -18468,7 +18606,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wlkrr"
+            "wlkrr",
+            "人见人爱的块魂 安可+ 国王大人的小小回忆"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -18688,7 +18827,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wol"
+            "wol",
+            "憎恶之西"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -18817,7 +18957,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wk"
+            "wk",
+            "白色关节",
+            "赤手求升"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -18986,7 +19128,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wfrst"
+            "wfrst",
+            "雪居之地"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -19115,7 +19258,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wol"
+            "wol",
+            "传说法师"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -19207,7 +19351,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "wizgun"
+            "wizgun",
+            "荒野枪巫"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -19337,7 +19482,9 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "we"
+            "we",
+            "摔跤帝国",
+            "摔角帝国"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -19717,7 +19864,9 @@
           "internalFolderName": "Aeruta",
           "packageIndex": "https://thunderstore.io/c/aeruta/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "亚路塔：狐狸狐途的面包冒险"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -19926,6 +20075,86 @@
       },
       "r2modman": null
     },
+    "baby-steps": {
+      "uuid": "02ecb2ec-5bd1-402c-ab52-b87b3abc5d90",
+      "label": "baby-steps",
+      "meta": {
+        "displayName": "Baby Steps",
+        "iconUrl": "baby-steps.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "1281040"
+            }
+          ],
+          "steamFolderName": "Baby Steps",
+          "dataFolderName": "BabySteps_Data",
+          "exeNames": [
+            "BabySteps.exe"
+          ],
+          "packageLoader": "recursive-melonloader",
+          "meta": {
+            "displayName": "Baby Steps",
+            "iconUrl": "baby-steps.webp"
+          },
+          "settingsIdentifier": "BabySteps",
+          "internalFolderName": "BabySteps",
+          "packageIndex": "https://thunderstore.io/c/baby-steps/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "hidden",
+          "additionalSearchStrings": [
+            "一步一脚印"
+          ],
+          "installRules": [],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Baby Steps",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "discordUrl": "https://discord.gg/YvjKGjkn2B",
+        "autolistPackageIds": [
+          "LavaGang-MelonLoader"
+        ]
+      }
+    },
     "bad-north": {
       "uuid": "f59327ea-5b65-4817-b347-7c08fdda0fdd",
       "label": "bad-north",
@@ -19961,7 +20190,11 @@
           "internalFolderName": "BadNorth",
           "packageIndex": "https://thunderstore.io/c/bad-north/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "坏北",
+            "绝境北地",
+            "严峻北境"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -20169,7 +20402,9 @@
           "internalFolderName": "BendyAndTheInkMachine",
           "packageIndex": "https://thunderstore.io/c/bendy-and-the-ink-machine/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "班迪与墨水机器"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -20372,7 +20607,9 @@
           "internalFolderName": "Broforce",
           "packageIndex": "https://thunderstore.io/c/broforce/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "武装原型"
+          ],
           "installRules": [
             {
               "route": "UMM/Mods",
@@ -20445,6 +20682,125 @@
         "autolistPackageIds": []
       }
     },
+    "chill-with-you": {
+      "uuid": "5090345c-21f2-421f-a53d-13b47a25beae",
+      "label": "chill-with-you",
+      "meta": {
+        "displayName": "Chill with You : Lo-Fi Story",
+        "iconUrl": "chill-with-you.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "3548580"
+            }
+          ],
+          "steamFolderName": "Chill with You Lo-Fi Story",
+          "dataFolderName": "Chill With You_Data",
+          "exeNames": [
+            "Chill With You.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Chill with You : Lo-Fi Story",
+            "iconUrl": "chill-with-you.webp"
+          },
+          "settingsIdentifier": "ChillWithYouLoFiStory",
+          "internalFolderName": "ChillWithYouLoFiStory",
+          "packageIndex": "https://thunderstore.io/c/chill-with-you/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "放松时光：与你共享Lo-Fi故事"
+          ],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Chill with You : Lo-Fi Story",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
+    },
     "clover-pit": {
       "uuid": "dc3c6f53-dbc6-497a-a922-1977b5df0751",
       "label": "clover-pit",
@@ -20484,7 +20840,9 @@
           "internalFolderName": "CloverPit",
           "packageIndex": "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "四叶草深渊"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -20667,6 +21025,267 @@
       },
       "r2modman": null
     },
+    "crab-game": {
+      "uuid": "4b436497-2041-42ac-88b4-29206515b48d",
+      "label": "crab-game",
+      "meta": {
+        "displayName": "Crab Game",
+        "iconUrl": "crab-game.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "1782210"
+            }
+          ],
+          "steamFolderName": "Crab Game",
+          "dataFolderName": "Crab Game_Data",
+          "exeNames": [
+            "Crab Game.exe",
+            "Crab Game.x86_64"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Crab Game",
+            "iconUrl": "crab-game.webp"
+          },
+          "settingsIdentifier": "CrabGame",
+          "internalFolderName": "CrabGame",
+          "packageIndex": "https://thunderstore.io/c/crab-game/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "螃蟹游戏"
+          ],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Crab Game",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "host-only": {
+            "label": "Host Only"
+          },
+          "client-side": {
+            "label": "Client Side"
+          },
+          "all-clients": {
+            "label": "All Clients"
+          },
+          "asset-replacements": {
+            "label": "Asset Replacements"
+          },
+          "tweaks-and-quality-of-life": {
+            "label": "Tweaks & Quality Of Life"
+          },
+          "bug-fixes": {
+            "label": "Bug Fixes"
+          },
+          "commands": {
+            "label": "Commands"
+          },
+          "game-modes": {
+            "label": "Game Modes"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          },
+          "tools": {
+            "label": "Tools"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "discordUrl": "https://discord.gg/jBGMZqndT3"
+      }
+    },
+    "crawlspace-2": {
+      "uuid": "83a9df7d-ebe5-4113-ae5b-e9426530e096",
+      "label": "crawlspace-2",
+      "meta": {
+        "displayName": "Crawlspace 2",
+        "iconUrl": "crawlspace-2.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "2258670"
+            }
+          ],
+          "steamFolderName": "Crawlspace 2",
+          "dataFolderName": "VRFighter_Data",
+          "exeNames": [
+            "VRFighter.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Crawlspace 2",
+            "iconUrl": "crawlspace-2.webp"
+          },
+          "settingsIdentifier": "Crawlspace2",
+          "internalFolderName": "Crawlspace2",
+          "packageIndex": "https://thunderstore.io/c/crawlspace-2/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "爬行空间2"
+          ],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Crawlspace 2",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
+    },
     "crime-simulator": {
       "uuid": "ae24513f-4737-4dfd-8fbd-6879ffdd88d2",
       "label": "crime-simulator",
@@ -20702,7 +21321,9 @@
           "internalFolderName": "CrimeSimulator",
           "packageIndex": "https://thunderstore.io/c/crime-simulator/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "犯罪模拟器"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -20824,7 +21445,8 @@
           "packageIndex": "https://thunderstore.io/c/darkwater/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "dw"
+            "dw",
+            "黑水"
           ],
           "installRules": [
             {
@@ -21095,7 +21717,9 @@
           "internalFolderName": "EasyDeliveryCo",
           "packageIndex": "https://thunderstore.io/c/easy-delivery-co/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "黑猫速递"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -21283,7 +21907,8 @@
           "gameInstanceType": "game",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            ""
+            "玩具熊的五夜惊魂：陷落球池",
+            "玩具熊的五夜后宫：陷入球池"
           ],
           "packageLoader": "bepinex",
           "installRules": [
@@ -21407,7 +22032,9 @@
           "internalFolderName": "FootballManager26",
           "packageIndex": "https://thunderstore.io/c/football-manager-26/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "足球经理26"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -21526,7 +22153,10 @@
           "internalFolderName": "ForsakenFrontiers",
           "packageIndex": "https://thunderstore.io/c/forsaken-frontiers/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "遗弃前线",
+            "遗忘边境"
+          ],
           "installRules": [],
           "relativeFileExclusions": null
         }
@@ -21618,6 +22248,123 @@
         }
       },
       "r2modman": null
+    },
+    "goblin-buster": {
+      "uuid": "055b8ac0-3163-41b7-a244-da5672210f37",
+      "label": "goblin-buster",
+      "meta": {
+        "displayName": "Goblin Buster: Incremental Tower Defense",
+        "iconUrl": "goblin-buster-incremental-tower-defense.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "2482250"
+            }
+          ],
+          "steamFolderName": "Goblin Buster",
+          "dataFolderName": "Goblin Buster_Data",
+          "exeNames": [
+            "Goblin Buster.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Goblin Buster: Incremental Tower Defense",
+            "iconUrl": "goblin-buster-incremental-tower-defense.webp"
+          },
+          "settingsIdentifier": "GoblinBusterIncrementalTowerDefense",
+          "internalFolderName": "GoblinBusterIncrementalTowerDefense",
+          "packageIndex": "https://thunderstore.io/c/goblin-buster/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Goblin Buster: Incremental Tower Defense",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
     },
     "grey-hack": {
       "uuid": "40ea6b48-e390-42f9-9454-d49ade3212eb",
@@ -21796,7 +22543,8 @@
           "packageIndex": "https://thunderstore.io/c/hollow-knight-silksong/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "hkss"
+            "hkss",
+            "空洞骑士：丝之歌"
           ],
           "installRules": [
             {
@@ -21942,7 +22690,8 @@
           "packageIndex": "https://thunderstore.io/c/house-of-legacy/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "hol"
+            "hol",
+            "吾今有世家"
           ],
           "installRules": [
             {
@@ -22042,41 +22791,148 @@
       "thunderstore": {
         "displayName": "Hytale",
         "categories": {
+          "pre-release": {
+            "label": "Pre-Release"
+          },
+          "release": {
+            "label": "Release"
+          },
+          "worlds": {
+            "label": "Worlds"
+          },
+          "universes": {
+            "label": "Universes"
+          },
+          "saves": {
+            "label": "Saves"
+          },
+          "plugins": {
+            "label": "Plugins"
+          },
+          "asset-packs": {
+            "label": "Asset Packs"
+          },
           "mods": {
             "label": "Mods"
-          },
-          "modpacks": {
-            "label": "Modpacks"
           },
           "tools": {
             "label": "Tools"
           },
+          "audio": {
+            "label": "Audio"
+          },
           "libraries": {
             "label": "Libraries"
           },
+          "modpacks": {
+            "label": "Combos"
+          },
           "misc": {
             "label": "Misc"
-          },
-          "audio": {
-            "label": "Audio"
           }
         },
         "sections": {
           "mods": {
             "name": "Mods",
+            "requireCategories": [
+              "mods"
+            ],
             "excludeCategories": [
-              "modpacks"
+              "modpacks",
+              "worlds",
+              "universes",
+              "saves"
+            ]
+          },
+          "plugins": {
+            "name": "Plugins",
+            "requireCategories": [
+              "plugins"
+            ],
+            "excludeCategories": [
+              "modpacks",
+              "worlds",
+              "universes",
+              "saves",
+              "asset-packs"
+            ]
+          },
+          "asset-packs": {
+            "name": "Asset Packs",
+            "requireCategories": [
+              "asset-packs"
+            ],
+            "excludeCategories": [
+              "modpacks",
+              "worlds",
+              "universes",
+              "saves",
+              "plugins"
+            ]
+          },
+          "saves": {
+            "name": "Saves",
+            "requireCategories": [
+              "saves"
+            ],
+            "excludeCategories": [
+              "modpacks",
+              "worlds",
+              "universes",
+              "mods",
+              "plugins",
+              "asset-packs"
+            ]
+          },
+          "universes": {
+            "name": "Universes",
+            "requireCategories": [
+              "universes"
+            ],
+            "excludeCategories": [
+              "modpacks",
+              "worlds",
+              "saves",
+              "mods",
+              "plugins",
+              "asset-packs"
+            ]
+          },
+          "worlds": {
+            "name": "Worlds",
+            "requireCategories": [
+              "worlds"
+            ],
+            "excludeCategories": [
+              "modpacks",
+              "universes",
+              "saves",
+              "mods",
+              "plugins",
+              "asset-packs"
+            ]
+          },
+          "other": {
+            "name": "Other",
+            "excludeCategories": [
+              "mods",
+              "plugins",
+              "asset-packs",
+              "modpacks",
+              "worlds",
+              "universes",
+              "saves"
             ]
           },
           "modpacks": {
-            "name": "Modpacks",
+            "name": "Combos",
             "requireCategories": [
               "modpacks"
             ]
           }
         },
-        "wikiUrl": "https://hytalemodding.xyz/",
-        "discordUrl": "https://discord.gg/KrHK7B39pY",
+        "wikiUrl": "https://hytalemodding.dev/",
+        "discordUrl": "https://discord.gg/hytalemodding",
         "autolistPackageIds": []
       }
     },
@@ -22115,7 +22971,9 @@
           "internalFolderName": "JumpSpace",
           "packageIndex": "https://thunderstore.io/c/jump-space/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "跃迁空间"
+          ],
           "installRules": [],
           "relativeFileExclusions": null
         }
@@ -22246,7 +23104,9 @@
           "internalFolderName": "KeyWe",
           "packageIndex": "https://thunderstore.io/c/keywe/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "关键奇异鸟"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -22368,7 +23228,9 @@
           "internalFolderName": "LensIsland",
           "packageIndex": "https://thunderstore.io/c/lens-island/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "莱恩岛生存指南"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -22537,7 +23399,9 @@
           "internalFolderName": "LogicWorld",
           "packageIndex": "https://thunderstore.io/c/logic-world/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "逻辑世界"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -22669,7 +23533,8 @@
           "packageIndex": "https://thunderstore.io/c/lost-skies-ic/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "lsic"
+            "lsic",
+            "失落的天空：岛屿创造者"
           ],
           "installRules": [
             {
@@ -22771,7 +23636,9 @@
           "internalFolderName": "MageArena",
           "packageIndex": "https://thunderstore.io/c/mage-arena/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "法师竞技场"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -22894,7 +23761,8 @@
           "packageIndex": "https://thunderstore.io/c/malteses-fluffy-onsen/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "mfo"
+            "mfo",
+            "线条小狗：动物温泉"
           ],
           "installRules": [
             {
@@ -23018,7 +23886,9 @@
           "internalFolderName": "Megabonk",
           "packageIndex": "https://thunderstore.io/c/megabonk/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "梅加邦克"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -23140,7 +24010,9 @@
           "internalFolderName": "Mimesis",
           "packageIndex": "https://thunderstore.io/c/mimesis/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "迷魅狩猎"
+          ],
           "installRules": [],
           "relativeFileExclusions": null
         }
@@ -23184,6 +24056,124 @@
         },
         "autolistPackageIds": [
           "LavaGang-MelonLoader"
+        ]
+      }
+    },
+    "mine-mogul": {
+      "uuid": "ba3dd205-6083-4113-bad9-fa3d365635b8",
+      "label": "mine-mogul",
+      "meta": {
+        "displayName": "MineMogul",
+        "iconUrl": "mine-mogul.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "3846120"
+            }
+          ],
+          "steamFolderName": "MineMogul",
+          "dataFolderName": "MineMogul_Data",
+          "exeNames": [
+            "MineMogul.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "MineMogul",
+            "iconUrl": "mine-mogul.webp"
+          },
+          "settingsIdentifier": "MineMogul",
+          "internalFolderName": "MineMogul",
+          "packageIndex": "https://thunderstore.io/c/mine-mogul/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "MineMogul",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "discordUrl": "https://discord.gg/QyWQS6ESj5",
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
         ]
       }
     },
@@ -23235,6 +24225,54 @@
       },
       "r2modman": null
     },
+    "my-winter-car": {
+      "uuid": "2c1534b9-6b36-4f54-90bb-65615478cac5",
+      "label": "my-winter-car",
+      "meta": {
+        "displayName": "My Winter Car",
+        "iconUrl": "my-winter-car.webp"
+      },
+      "distributions": [],
+      "r2modman": null,
+      "thunderstore": {
+        "displayName": "My Winter Car",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": []
+      }
+    },
     "mycopunk": {
       "uuid": "ae70137d-e23a-46d1-bae2-56916f686018",
       "label": "mycopunk",
@@ -23270,7 +24308,9 @@
           "internalFolderName": "Mycopunk",
           "packageIndex": "https://thunderstore.io/c/mycopunk/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "真菌朋克"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -23414,7 +24454,9 @@
           "internalFolderName": "Necropolis",
           "packageIndex": "https://thunderstore.io/c/necropolis/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "墓园：野蛮版"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -23499,6 +24541,127 @@
         "autolistPackageIds": []
       }
     },
+    "nuclear-option": {
+      "uuid": "fa3f7e0d-f894-4eb5-b417-2dd2a9b531c9",
+      "label": "nuclear-option",
+      "meta": {
+        "displayName": "Nuclear Option",
+        "iconUrl": "nuclear-option.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "2168680"
+            }
+          ],
+          "steamFolderName": "Nuclear Option",
+          "dataFolderName": "NuclearOption_Data",
+          "exeNames": [
+            "NuclearOption.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Nuclear Option",
+            "iconUrl": "nuclear-option.webp"
+          },
+          "settingsIdentifier": "NuclearOption",
+          "internalFolderName": "NuclearOption",
+          "packageIndex": "https://thunderstore.io/c/nuclear-option/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "核选项",
+            "终极威慑"
+          ],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Nuclear Option",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "discordUrl": "https://discord.gg/nuclear-option",
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
+    },
     "ostranauts": {
       "uuid": "376711bd-6557-4c98-8efc-acc903868386",
       "label": "ostranauts",
@@ -23534,7 +24697,9 @@
           "internalFolderName": "Ostranauts",
           "packageIndex": "https://thunderstore.io/c/ostranauts/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "星际漂流者"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -23657,7 +24822,9 @@
           "internalFolderName": "PacManWorldRePac",
           "packageIndex": "https://thunderstore.io/c/pac-man-world-re-pac/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "吃豆人 吃遍世界"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -23863,7 +25030,8 @@
           "packageIndex": "https://thunderstore.io/c/paper-animal-adventure/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "paa"
+            "paa",
+            "纸片萌兽：小小迷途"
           ],
           "installRules": [
             {
@@ -23985,7 +25153,9 @@
           "internalFolderName": "Patapon12Replay",
           "packageIndex": "https://thunderstore.io/c/patapon-1-2-replay/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "啪嗒砰1+2Replay"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -24171,7 +25341,8 @@
           "packageIndex": "https://thunderstore.io/c/pigface/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
           "additionalSearchStrings": [
-            "pf"
+            "pf",
+            "猪脸"
           ],
           "installRules": [
             {
@@ -24219,6 +25390,125 @@
       ],
       "thunderstore": {
         "displayName": "PIGFACE",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
+    },
+    "pushing-it-together-sisyphus": {
+      "uuid": "ca4df913-b688-459c-bb60-f56951a5b6a0",
+      "label": "pushing-it-together-sisyphus",
+      "meta": {
+        "displayName": "Pushing it! Together - Sisyphus Co-op",
+        "iconUrl": "pushing-it-together-sisyphus-co-op.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "3298460"
+            }
+          ],
+          "steamFolderName": "Pushing It! Together Sisyphus Co-op",
+          "dataFolderName": "Pushing it! Together_Data",
+          "exeNames": [
+            "Pushing it! Together.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Pushing it! Together - Sisyphus Co-op",
+            "iconUrl": "pushing-it-together-sisyphus-co-op.webp"
+          },
+          "settingsIdentifier": "PushingItTogetherSisyphusCoOp",
+          "internalFolderName": "PushingItTogetherSisyphusCoOp",
+          "packageIndex": "https://thunderstore.io/c/pushing-it-together-sisyphus/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "努力，加油！一起化身西西弗斯（合作版）"
+          ],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Pushing it! Together - Sisyphus Co-op",
         "categories": {
           "mods": {
             "label": "Mods"
@@ -24380,6 +25670,86 @@
         "discordUrl": "https://discord.gg/GcJSMUGJyD",
         "autolistPackageIds": [],
         "shortDescription": "Modded Apex Legends!"
+      }
+    },
+    "random-access-mayhem": {
+      "uuid": "64dcbac2-cc02-4338-99b4-00af4b38450b",
+      "label": "random-access-mayhem",
+      "meta": {
+        "displayName": "RAM: Random Access Mayhem",
+        "iconUrl": "random-access-mayhem.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "2256450"
+            }
+          ],
+          "steamFolderName": "RAM Random Access Mayhem",
+          "dataFolderName": "",
+          "exeNames": [
+            "RAM.exe"
+          ],
+          "packageLoader": "godotml",
+          "meta": {
+            "displayName": "RAM: Random Access Mayhem",
+            "iconUrl": "random-access-mayhem.webp"
+          },
+          "settingsIdentifier": "RamRandomAccessMayhem",
+          "internalFolderName": "RamRandomAccessMayhem",
+          "packageIndex": "https://thunderstore.io/c/random-access-mayhem/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [
+            "夺魄机兵"
+          ],
+          "installRules": [],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "RAM: Random Access Mayhem",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "discordUrl": "https://discord.gg/rmAGykYpxQ",
+        "autolistPackageIds": [
+          "GodotModding-GodotModLoader"
+        ]
       }
     },
     "resonite": {
@@ -24584,7 +25954,9 @@
           "internalFolderName": "ReturnFromCore",
           "packageIndex": "https://thunderstore.io/c/return-from-core/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "地心归途"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -24670,6 +26042,83 @@
         ]
       }
     },
+    "rv-there-yet": {
+      "uuid": "81310141-47b7-4a76-9142-f5a42d1c7811",
+      "label": "rv-there-yet",
+      "meta": {
+        "displayName": "RV There Yet?",
+        "iconUrl": "rv-there-yet.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "3949040"
+            }
+          ],
+          "steamFolderName": "Ride",
+          "dataFolderName": "Ride",
+          "exeNames": [
+            "Ride.exe"
+          ],
+          "packageLoader": "shimloader",
+          "meta": {
+            "displayName": "RV There Yet?",
+            "iconUrl": "rv-there-yet.webp"
+          },
+          "settingsIdentifier": "RvThereYet",
+          "internalFolderName": "RvThereYet",
+          "packageIndex": "https://thunderstore.io/c/rv-there-yet/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [],
+          "installRules": [],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "RV There Yet?",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "Thunderstore-unreal_shimloader"
+        ]
+      }
+    },
     "scrap-mechanic": {
       "uuid": "4dc5616f-8de7-43d0-b067-17fa00031a9d",
       "label": "scrap-mechanic",
@@ -24705,7 +26154,9 @@
           "internalFolderName": "ScrapMechanic",
           "packageIndex": "https://thunderstore.io/c/scrap-mechanic/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "废品机械师"
+          ],
           "installRules": [],
           "relativeFileExclusions": null
         }
@@ -24839,7 +26290,9 @@
           "internalFolderName": "SlashersKeep",
           "packageIndex": "https://thunderstore.io/c/slashers-keep/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "血屠城堡"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -24958,7 +26411,10 @@
           "internalFolderName": "SmushiComeHome",
           "packageIndex": "https://thunderstore.io/c/smushi-come-home/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "斯摩西回家",
+            "舒米回家"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -25179,7 +26635,9 @@
           "internalFolderName": "SuperFantasyKingdom",
           "packageIndex": "https://thunderstore.io/c/super-fantasy-kingdom/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "超级幻想王国"
+          ],
           "installRules": [
             {
               "route": "BepInEx/plugins",
@@ -25364,6 +26822,123 @@
       },
       "r2modman": null
     },
+    "unfair-flips": {
+      "uuid": "747c7cd7-8b91-45fd-b734-72fb313cf39b",
+      "label": "unfair-flips",
+      "meta": {
+        "displayName": "Unfair Flips",
+        "iconUrl": "unfair-flips.webp"
+      },
+      "distributions": [],
+      "r2modman": [
+        {
+          "gameInstanceType": "game",
+          "distributions": [
+            {
+              "platform": "steam",
+              "identifier": "3925760"
+            }
+          ],
+          "steamFolderName": "Unfair Flips",
+          "dataFolderName": "Unfair Flips_Data",
+          "exeNames": [
+            "Unfair Flips.exe"
+          ],
+          "packageLoader": "bepinex",
+          "meta": {
+            "displayName": "Unfair Flips",
+            "iconUrl": "unfair-flips.webp"
+          },
+          "settingsIdentifier": "UnfairFlips",
+          "internalFolderName": "UnfairFlips",
+          "packageIndex": "https://thunderstore.io/c/unfair-flips/api/v1/package-listing-index/",
+          "gameSelectionDisplayMode": "visible",
+          "additionalSearchStrings": [],
+          "installRules": [
+            {
+              "route": "BepInEx/plugins",
+              "isDefaultLocation": true,
+              "defaultFileExtensions": [
+                ".dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/core",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/patchers",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/monomod",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [
+                ".mm.dll"
+              ],
+              "trackingMethod": "subdir",
+              "subRoutes": []
+            },
+            {
+              "route": "BepInEx/config",
+              "isDefaultLocation": false,
+              "defaultFileExtensions": [],
+              "trackingMethod": "none",
+              "subRoutes": []
+            }
+          ],
+          "relativeFileExclusions": null
+        }
+      ],
+      "thunderstore": {
+        "displayName": "Unfair Flips",
+        "categories": {
+          "mods": {
+            "label": "Mods"
+          },
+          "modpacks": {
+            "label": "Modpacks"
+          },
+          "tools": {
+            "label": "Tools"
+          },
+          "libraries": {
+            "label": "Libraries"
+          },
+          "misc": {
+            "label": "Misc"
+          },
+          "audio": {
+            "label": "Audio"
+          }
+        },
+        "sections": {
+          "mods": {
+            "name": "Mods",
+            "excludeCategories": [
+              "modpacks"
+            ]
+          },
+          "modpacks": {
+            "name": "Modpacks",
+            "requireCategories": [
+              "modpacks"
+            ]
+          }
+        },
+        "autolistPackageIds": [
+          "BepInEx-BepInExPack"
+        ]
+      }
+    },
     "vellum": {
       "uuid": "940cd817-fa5b-464e-88a3-0de6d04388c0",
       "label": "vellum",
@@ -25399,7 +26974,9 @@
           "internalFolderName": "Vellum",
           "packageIndex": "https://thunderstore.io/c/vellum/api/v1/package-listing-index/",
           "gameSelectionDisplayMode": "visible",
-          "additionalSearchStrings": [],
+          "additionalSearchStrings": [
+            "维勒姆"
+          ],
           "installRules": [],
           "relativeFileExclusions": null
         }
@@ -31100,6 +32677,47 @@
       "discordUrl": "https://discord.gg/astroneer-modding-774729322674126858",
       "autolistPackageIds": []
     },
+    "baby-steps": {
+      "displayName": "Baby Steps",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "discordUrl": "https://discord.gg/YvjKGjkn2B",
+      "autolistPackageIds": [
+        "LavaGang-MelonLoader"
+      ]
+    },
     "bad-north": {
       "displayName": "Bad North",
       "categories": {
@@ -31306,6 +32924,46 @@
       "discordUrl": "https://discord.com/invite/freelives",
       "autolistPackageIds": []
     },
+    "chill-with-you": {
+      "displayName": "Chill with You : Lo-Fi Story",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
+    },
     "clover-pit": {
       "displayName": "CloverPit",
       "categories": {
@@ -31432,6 +33090,108 @@
         }
       },
       "discordUrl": "https://discord.gg/m8jhYA4TvV"
+    },
+    "crab-game": {
+      "displayName": "Crab Game",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "host-only": {
+          "label": "Host Only"
+        },
+        "client-side": {
+          "label": "Client Side"
+        },
+        "all-clients": {
+          "label": "All Clients"
+        },
+        "asset-replacements": {
+          "label": "Asset Replacements"
+        },
+        "tweaks-and-quality-of-life": {
+          "label": "Tweaks & Quality Of Life"
+        },
+        "bug-fixes": {
+          "label": "Bug Fixes"
+        },
+        "commands": {
+          "label": "Commands"
+        },
+        "game-modes": {
+          "label": "Game Modes"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        },
+        "tools": {
+          "label": "Tools"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "discordUrl": "https://discord.gg/jBGMZqndT3"
+    },
+    "crawlspace-2": {
+      "displayName": "Crawlspace 2",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
     },
     "crime-simulator": {
       "displayName": "Crime Simulator",
@@ -31867,6 +33627,46 @@
         }
       }
     },
+    "goblin-buster": {
+      "displayName": "Goblin Buster: Incremental Tower Defense",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
+    },
     "grey-hack": {
       "displayName": "Grey Hack",
       "categories": {
@@ -32015,41 +33815,148 @@
     "hytale": {
       "displayName": "Hytale",
       "categories": {
+        "pre-release": {
+          "label": "Pre-Release"
+        },
+        "release": {
+          "label": "Release"
+        },
+        "worlds": {
+          "label": "Worlds"
+        },
+        "universes": {
+          "label": "Universes"
+        },
+        "saves": {
+          "label": "Saves"
+        },
+        "plugins": {
+          "label": "Plugins"
+        },
+        "asset-packs": {
+          "label": "Asset Packs"
+        },
         "mods": {
           "label": "Mods"
-        },
-        "modpacks": {
-          "label": "Modpacks"
         },
         "tools": {
           "label": "Tools"
         },
+        "audio": {
+          "label": "Audio"
+        },
         "libraries": {
           "label": "Libraries"
         },
+        "modpacks": {
+          "label": "Combos"
+        },
         "misc": {
           "label": "Misc"
-        },
-        "audio": {
-          "label": "Audio"
         }
       },
       "sections": {
         "mods": {
           "name": "Mods",
+          "requireCategories": [
+            "mods"
+          ],
           "excludeCategories": [
-            "modpacks"
+            "modpacks",
+            "worlds",
+            "universes",
+            "saves"
+          ]
+        },
+        "plugins": {
+          "name": "Plugins",
+          "requireCategories": [
+            "plugins"
+          ],
+          "excludeCategories": [
+            "modpacks",
+            "worlds",
+            "universes",
+            "saves",
+            "asset-packs"
+          ]
+        },
+        "asset-packs": {
+          "name": "Asset Packs",
+          "requireCategories": [
+            "asset-packs"
+          ],
+          "excludeCategories": [
+            "modpacks",
+            "worlds",
+            "universes",
+            "saves",
+            "plugins"
+          ]
+        },
+        "saves": {
+          "name": "Saves",
+          "requireCategories": [
+            "saves"
+          ],
+          "excludeCategories": [
+            "modpacks",
+            "worlds",
+            "universes",
+            "mods",
+            "plugins",
+            "asset-packs"
+          ]
+        },
+        "universes": {
+          "name": "Universes",
+          "requireCategories": [
+            "universes"
+          ],
+          "excludeCategories": [
+            "modpacks",
+            "worlds",
+            "saves",
+            "mods",
+            "plugins",
+            "asset-packs"
+          ]
+        },
+        "worlds": {
+          "name": "Worlds",
+          "requireCategories": [
+            "worlds"
+          ],
+          "excludeCategories": [
+            "modpacks",
+            "universes",
+            "saves",
+            "mods",
+            "plugins",
+            "asset-packs"
+          ]
+        },
+        "other": {
+          "name": "Other",
+          "excludeCategories": [
+            "mods",
+            "plugins",
+            "asset-packs",
+            "modpacks",
+            "worlds",
+            "universes",
+            "saves"
           ]
         },
         "modpacks": {
-          "name": "Modpacks",
+          "name": "Combos",
           "requireCategories": [
             "modpacks"
           ]
         }
       },
-      "wikiUrl": "https://hytalemodding.xyz/",
-      "discordUrl": "https://discord.gg/KrHK7B39pY",
+      "wikiUrl": "https://hytalemodding.dev/",
+      "discordUrl": "https://discord.gg/hytalemodding",
       "autolistPackageIds": []
     },
     "jump-space": {
@@ -32476,6 +34383,47 @@
         "LavaGang-MelonLoader"
       ]
     },
+    "mine-mogul": {
+      "displayName": "MineMogul",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "discordUrl": "https://discord.gg/QyWQS6ESj5",
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
+    },
     "mirrors-edge": {
       "displayName": "Mirror's Edge",
       "categories": {
@@ -32513,6 +34461,44 @@
         }
       },
       "discordUrl": "https://discord.gg/gV8QW6F"
+    },
+    "my-winter-car": {
+      "displayName": "My Winter Car",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": []
     },
     "mycopunk": {
       "displayName": "Mycopunk",
@@ -32615,6 +34601,47 @@
       },
       "discordUrl": "https://discord.gg/2233yFQ",
       "autolistPackageIds": []
+    },
+    "nuclear-option": {
+      "displayName": "Nuclear Option",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "discordUrl": "https://discord.gg/nuclear-option",
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
     },
     "ostranauts": {
       "displayName": "Ostranauts",
@@ -32915,6 +34942,46 @@
         "BepInEx-BepInExPack"
       ]
     },
+    "pushing-it-together-sisyphus": {
+      "displayName": "Pushing it! Together - Sisyphus Co-op",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
+    },
     "r5reloaded": {
       "displayName": "R5Reloaded",
       "sections": {},
@@ -33018,6 +35085,47 @@
       "discordUrl": "https://discord.gg/GcJSMUGJyD",
       "autolistPackageIds": [],
       "shortDescription": "Modded Apex Legends!"
+    },
+    "random-access-mayhem": {
+      "displayName": "RAM: Random Access Mayhem",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "discordUrl": "https://discord.gg/rmAGykYpxQ",
+      "autolistPackageIds": [
+        "GodotModding-GodotModLoader"
+      ]
     },
     "resonite": {
       "displayName": "Resonite",
@@ -33136,6 +35244,46 @@
       },
       "autolistPackageIds": [
         "BepInEx-BepInExPack"
+      ]
+    },
+    "rv-there-yet": {
+      "displayName": "RV There Yet?",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "Thunderstore-unreal_shimloader"
       ]
     },
     "scrap-mechanic": {
@@ -33497,6 +35645,46 @@
       },
       "discordUrl": "https://discord.gg/vXmCVnsPE5",
       "autolistPackageIds": []
+    },
+    "unfair-flips": {
+      "displayName": "Unfair Flips",
+      "categories": {
+        "mods": {
+          "label": "Mods"
+        },
+        "modpacks": {
+          "label": "Modpacks"
+        },
+        "tools": {
+          "label": "Tools"
+        },
+        "libraries": {
+          "label": "Libraries"
+        },
+        "misc": {
+          "label": "Misc"
+        },
+        "audio": {
+          "label": "Audio"
+        }
+      },
+      "sections": {
+        "mods": {
+          "name": "Mods",
+          "excludeCategories": [
+            "modpacks"
+          ]
+        },
+        "modpacks": {
+          "name": "Modpacks",
+          "requireCategories": [
+            "modpacks"
+          ]
+        }
+      },
+      "autolistPackageIds": [
+        "BepInEx-BepInExPack"
+      ]
     },
     "vellum": {
       "displayName": "Vellum",
@@ -34109,6 +36297,11 @@
       "packageId": "ReDoIngMods-Rivet",
       "rootFolder": "Rivet",
       "loader": "rivet"
+    },
+    {
+      "packageId": "BepInEx-BepInExPack_CrabGame",
+      "rootFolder": "BepInExPack",
+      "loader": "bepinex"
     }
   ]
 }
