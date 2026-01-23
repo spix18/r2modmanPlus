@@ -4,6 +4,7 @@ import Game from '../../../../../model/game/Game';
 import Profile from '../../../../../model/Profile';
 import { DynamicGameInstruction } from '../../DynamicGameInstruction';
 import { getUnityDoorstopVersion } from '../../../../../utils/UnityDoorstopUtils';
+import appWindow from '../../../../../providers/node/app/app_window';
 
 export default class UMMGameInstructions extends GameInstructionGenerator {
 
@@ -16,17 +17,38 @@ export default class UMMGameInstructions extends GameInstructionGenerator {
     }
 
     private async genDoorstopV3(game: Game, profile: Profile): Promise<GameInstruction> {
-        let extraArguments = "";
+        const launchArgs: string[] = [
+            '--doorstop-enable',
+            'true',
+            '--doorstop-target',
+            DynamicGameInstruction.UMM_PRELOADER_PATH
+        ];
+
+        if (["linux", "darwin"].includes(appWindow.getPlatform().toLowerCase())) {
+            launchArgs.push('--r2profile', DynamicGameInstruction.PROFILE_NAME);
+        }
+
         return {
-            moddedParameters: `--profile "${profile.getProfilePath()}" --doorstop-enable true --doorstop-target "${DynamicGameInstruction.UMM_PRELOADER_PATH}"`,
-            vanillaParameters: `--doorstop-enable false`
+            moddedParameterList: launchArgs,
+            vanillaParameterList: ['--doorstop-enable', 'false']
         };
     }
 
     private async genDoorstopV4(game: Game, profile: Profile): Promise<GameInstruction> {
+        const launchArgs: string[] = [
+            '--doorstop-enabled',
+            'true',
+            '--doorstop-target-assembly',
+            DynamicGameInstruction.UMM_PRELOADER_PATH
+        ];
+
+        if (["linux", "darwin"].includes(appWindow.getPlatform().toLowerCase())) {
+            launchArgs.push('--r2profile', DynamicGameInstruction.PROFILE_NAME);
+        }
+
         return {
-            moddedParameters: `--profile "${profile.getProfilePath()}" --doorstop-enabled true --doorstop-target-assembly "${DynamicGameInstruction.UMM_PRELOADER_PATH}"`,
-            vanillaParameters: `--doorstop-enabled false`
+            moddedParameterList: launchArgs,
+            vanillaParameterList: ['--doorstop-enabled', 'false']
         };
     }
 }
