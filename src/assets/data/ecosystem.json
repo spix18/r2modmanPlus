@@ -20750,6 +20750,10 @@
             {
               "platform": "steam",
               "identifier": "580720"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Carrier Deck",
@@ -22052,6 +22056,10 @@
             {
               "platform": "steam",
               "identifier": "3679930"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Factory Planner",
@@ -25001,6 +25009,10 @@
             {
               "platform": "steam",
               "identifier": "3707400"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "On-Together/On-Together",
@@ -25886,6 +25898,10 @@
             {
               "platform": "steam",
               "identifier": "440310"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Project Arrhythmia",
@@ -27245,6 +27261,10 @@
             {
               "platform": "steam",
               "identifier": "1330000"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "Stolen Realm",
@@ -27585,6 +27605,10 @@
             {
               "platform": "steam",
               "identifier": "2060160"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "The Farmer Was Replaced",
