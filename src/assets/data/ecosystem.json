@@ -28183,6 +28183,10 @@
             {
               "platform": "steam",
               "identifier": "3834090"
+            },
+            {
+              "platform": "other",
+              "identifier": null
             }
           ],
           "steamFolderName": "YAPYAP",
