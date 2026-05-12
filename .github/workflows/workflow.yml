@@ -116,9 +116,6 @@ jobs:
           persist-credentials: true
           lfs: true
 
-      - name: Checkout LFS objects
-        run: git lfs checkout
-
       - name: Ensure repo is on develop
         run: |
           git fetch origin develop:develop || true
@@ -212,9 +209,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           lfs: true
-
-      - name: Checkout LFS objects
-        run: git lfs checkout
 
       - uses: jdx/mise-action@v3
         with:
