@@ -114,6 +114,10 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
+          lfs: true
+
+      - name: Checkout LFS objects
+        run: git lfs checkout
 
       - name: Ensure repo is on develop
         run: |
@@ -198,7 +202,15 @@ jobs:
       image: ghcr.io/flathub-infra/flatpak-github-actions:freedesktop-25.08
       options: --privileged
     steps:
+      - name: Install Git LFS
+        run: apt-get update && apt-get install -y git-lfs
+
       - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Checkout LFS objects
+        run: git lfs checkout
 
       - uses: jdx/mise-action@v3
         with:
