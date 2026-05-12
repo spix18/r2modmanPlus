@@ -257,3 +257,23 @@ jobs:
         with:
           bundle: r2modman.flatpak
           manifest-path: flatpak/io.github.ebkr.r2modman.release.yaml
+
+      - name: Upload Flatpak bundle to GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="$(node -p "require('./package.json').version")"
+          TAG="v${VERSION}"
+          OWNER_REPO="${GITHUB_REPOSITORY}"
+          release_id=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
+            "https://api.github.com/repos/${OWNER_REPO}/releases/tags/${TAG}" \
+            | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))")
+          if [ -z "$release_id" ]; then
+            echo "No release found for ${TAG}, skipping upload"
+            exit 0
+          fi
+          curl -s -X POST \
+            -H "Authorization: token ${GITHUB_TOKEN}" \
+            -H "Content-Type: application/octet-stream" \
+            --data-binary @r2modman.flatpak \
+            "https://uploads.github.com/repos/${OWNER_REPO}/releases/${release_id}/assets?name=r2modman.flatpak"
