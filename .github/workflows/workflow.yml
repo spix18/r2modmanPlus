@@ -225,7 +225,7 @@ jobs:
       - name: Patch manifest to use local dir source (bypasses flatpak-builder LFS limitation)
         run: |
           python3 - <<'EOF'
-          import yaml, json, sys
+          import yaml, sys
 
           manifest_path = "flatpak/io.github.ebkr.r2modman.release.yaml"
           with open(manifest_path, "r") as f:
@@ -240,7 +240,7 @@ jobs:
                   if source.get("type") == "git" and "github.com/ebkr/r2modmanPlus" in source.get("url", ""):
                       source.clear()
                       source["type"] = "dir"
-                      source["path"] = "."
+                      source["path"] = ".."
                       break
 
           with open(manifest_path, "w") as f:
