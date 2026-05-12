@@ -222,6 +222,33 @@ jobs:
       - name: Generate release manifest
         run: yarn generate-release-manifest
 
+      - name: Patch manifest to use local dir source (bypasses flatpak-builder LFS limitation)
+        run: |
+          python3 - <<'EOF'
+          import yaml, json, sys
+
+          manifest_path = "flatpak/io.github.ebkr.r2modman.release.yaml"
+          with open(manifest_path, "r") as f:
+              manifest = yaml.safe_load(f)
+
+          for module in manifest.get("modules", []):
+              if not isinstance(module, dict):
+                  continue
+              for source in module.get("sources", []):
+                  if not isinstance(source, dict):
+                      continue
+                  if source.get("type") == "git" and "github.com/ebkr/r2modmanPlus" in source.get("url", ""):
+                      source.clear()
+                      source["type"] = "dir"
+                      source["path"] = "."
+                      break
+
+          with open(manifest_path, "w") as f:
+              yaml.dump(manifest, f, allow_unicode=True, sort_keys=False)
+
+          print("Manifest patched successfully.")
+          EOF
+
       - name: Generate node sources
         run: yarn generate-node-sources
 
