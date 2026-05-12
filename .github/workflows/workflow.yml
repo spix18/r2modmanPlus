@@ -266,12 +266,20 @@ jobs:
           TAG="v${VERSION}"
           OWNER_REPO="${GITHUB_REPOSITORY}"
           release_id=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
-            "https://api.github.com/repos/${OWNER_REPO}/releases/tags/${TAG}" \
-            | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))")
+            "https://api.github.com/repos/${OWNER_REPO}/releases?per_page=10" \
+            | python3 -c "
+          import sys, json
+          releases = json.load(sys.stdin)
+          for r in releases:
+              if r.get('tag_name') == '${TAG}' or r.get('name','').endswith('${VERSION}'):
+                  print(r['id'])
+                  break
+          ")
           if [ -z "$release_id" ]; then
             echo "No release found for ${TAG}, skipping upload"
-            exit 0
+            exit 1
           fi
+          echo "Found release ID: ${release_id} for ${TAG}"
           curl -s -X POST \
             -H "Authorization: token ${GITHUB_TOKEN}" \
             -H "Content-Type: application/octet-stream" \
