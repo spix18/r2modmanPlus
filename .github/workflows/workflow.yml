@@ -204,6 +204,7 @@ jobs:
     steps:
       - name: Install Git LFS
         run: |
+          mkdir -p /usr/local/bin
           curl -fsSL https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz \
             | tar -xz --strip-components=1 -C /usr/local/bin git-lfs-3.6.1/git-lfs
           git lfs install
