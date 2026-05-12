@@ -190,7 +190,7 @@ jobs:
 
   build-flatpak:
     name: Build the Flatpak app
-    needs: prepare
+    needs: build
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'workflow_dispatch' ||
