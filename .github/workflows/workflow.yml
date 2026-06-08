@@ -37,7 +37,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Patch EcosystemSchema.ts
+      - name: Normalize schema defaults
         run: |
           if [ ! -f "${{ env.PATCH_SCRIPT }}" ]; then
             echo "ERROR: ${PATCH_SCRIPT} not found"
@@ -58,12 +58,12 @@ jobs:
             echo "pushed=false" >> "${GITHUB_OUTPUT}"
             exit 0
           fi
-          BRANCH="automation/add-other-$(date +%s)"
+          BRANCH="automation/schema-sync-$(date +%s)"
           git checkout -b "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "${{ env.ECOSYSTEM_TS }}"
-          git commit -m "chore(automation): inject 'other' distribution runtime patch"
+          git commit -m "chore: sync ecosystem schema defaults"
           echo "Attempting to push changes directly to ${TARGET_BRANCH}..."
           if git ls-remote --exit-code origin "${TARGET_BRANCH}"; then
             set +e
@@ -80,8 +80,8 @@ jobs:
           fi
           echo "Pushing branch ${BRANCH} and creating a PR to ${TARGET_BRANCH}..."
           git push origin "$BRANCH"
-          PR_TITLE="chore(automation): inject 'other' distribution runtime patch"
-          PR_BODY="This PR was opened automatically by the CI to apply the EcosystemSchema.ts runtime patch to ${TARGET_BRANCH}."
+          PR_TITLE="chore: sync ecosystem schema defaults"
+          PR_BODY="Automated schema normalization for ${TARGET_BRANCH}."
           if command -v gh >/dev/null 2>&1; then
             gh pr create --title "$PR_TITLE" --body "$PR_BODY" --head "$BRANCH" --base "${TARGET_BRANCH}"
           else
