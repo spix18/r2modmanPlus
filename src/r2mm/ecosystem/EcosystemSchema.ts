@@ -10,7 +10,7 @@ import path from "../../providers/node/path/path";
 import FsProvider from "../../providers/generic/file/FsProvider";
 import VersionNumber from "../../model/VersionNumber";
 import ManagerInformation from "../../_managerinf/ManagerInformation";
-import {EcosystemModloaderPackages, EcosystemSupportedGames} from "../../model/schema/ThunderstoreSchema";
+import {EcosystemModloaderPackages, EcosystemSupportedGames, Platform} from "../../model/schema/ThunderstoreSchema";
 import {updateModLoaderExports} from "../installing/profile_installers/ModLoaderVariantRecord";
 import LoggerProvider, {LogSeverity} from "../../providers/ror2/logging/LoggerProvider";
 import {getAxiosWithTimeouts} from "../../utils/HttpUtils";
@@ -254,11 +254,27 @@ async function resolveCachedEcosystemSchema(): Promise<ThunderstoreEcosystem> {
     return loadBundledSchema();
 }
 
+function ensureOtherDistribution(distributions: R2Modman["distributions"]): R2Modman["distributions"] {
+    if (!Array.isArray(distributions)) {
+        return distributions;
+    }
+    const hasSteam = distributions.some(d => d.platform === Platform.STEAM);
+    const hasOther = distributions.some(d => d.platform === Platform.OTHER);
+    if (hasSteam && !hasOther) {
+        const steamIndex = distributions.findIndex(d => d.platform === Platform.STEAM);
+        const result = [...distributions];
+        result.splice(steamIndex + 1, 0, {platform: Platform.OTHER, identifier: undefined});
+        return result;
+    }
+    return distributions;
+}
+
 async function internalUpdateEcosystemReactives(schema: ThunderstoreEcosystem): Promise<void> {
     const result: [string, R2Modman][] = []
     for (const [identifier, game] of Object.entries(schema.games)) {
         if (game.r2modman == null) continue;
         for (const entry of game.r2modman) {
+            entry.distributions = ensureOtherDistribution(entry.distributions);
             result.push([identifier, entry]);
         }
     }
