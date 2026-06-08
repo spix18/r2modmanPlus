@@ -15,8 +15,8 @@ permissions:
   pull-requests: write
 
 env:
-  ECOSYSTEM_PATH: src/assets/data/ecosystem.json
-  ADD_OTHER_SCRIPT: .github/scripts/add_other.py
+  ECOSYSTEM_TS: src/r2mm/ecosystem/EcosystemSchema.ts
+  PATCH_SCRIPT: .github/scripts/normalize_schema.py
 
 jobs:
   prepare:
@@ -37,14 +37,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Run add_other script
-        id: run_add
+      - name: Patch EcosystemSchema.ts
         run: |
-          if [ ! -f "${{ env.ADD_OTHER_SCRIPT }}" ]; then
-            echo "ERROR: ${ADD_OTHER_SCRIPT} not found"
+          if [ ! -f "${{ env.PATCH_SCRIPT }}" ]; then
+            echo "ERROR: ${PATCH_SCRIPT} not found"
             exit 2
           fi
-          python3 "${{ env.ADD_OTHER_SCRIPT }}"
+          python3 "${{ env.PATCH_SCRIPT }}"
           git status --porcelain || true
 
       - name: Commit & push changes to develop, or open PR if push blocked
@@ -63,8 +62,8 @@ jobs:
           git checkout -b "$BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${{ env.ECOSYSTEM_PATH }}"
-          git commit -m "chore(automation): add 'other' distribution entries"
+          git add "${{ env.ECOSYSTEM_TS }}"
+          git commit -m "chore(automation): inject 'other' distribution runtime patch"
           echo "Attempting to push changes directly to ${TARGET_BRANCH}..."
           if git ls-remote --exit-code origin "${TARGET_BRANCH}"; then
             set +e
@@ -81,8 +80,8 @@ jobs:
           fi
           echo "Pushing branch ${BRANCH} and creating a PR to ${TARGET_BRANCH}..."
           git push origin "$BRANCH"
-          PR_TITLE="chore(automation): add 'other' distribution entries (from workflow)"
-          PR_BODY="This PR was opened automatically by the CI to apply the add_other changes to ${TARGET_BRANCH}."
+          PR_TITLE="chore(automation): inject 'other' distribution runtime patch"
+          PR_BODY="This PR was opened automatically by the CI to apply the EcosystemSchema.ts runtime patch to ${TARGET_BRANCH}."
           if command -v gh >/dev/null 2>&1; then
             gh pr create --title "$PR_TITLE" --body "$PR_BODY" --head "$BRANCH" --base "${TARGET_BRANCH}"
           else
