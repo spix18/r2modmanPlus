@@ -284,3 +284,74 @@ jobs:
             -H "Content-Type: application/octet-stream" \
             --data-binary @r2modman.flatpak \
             "https://uploads.github.com/repos/${OWNER_REPO}/releases/${release_id}/assets?name=r2modman.flatpak"
+
+  publish-release:
+    name: Publish release
+    needs: [build, build-flatpak]
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'develop')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync to develop (for correct package.json version)
+        run: |
+          git fetch origin develop || true
+          git checkout develop || true
+          git pull origin develop || true
+
+      - name: Publish draft release as latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ ! -f package.json ]; then
+            echo "ERROR: package.json not found, cannot determine version"
+            exit 1
+          fi
+          VERSION="$(python3 -c "import json;print(json.load(open('package.json'))['version'])")"
+          TAG="v${VERSION}"
+          OWNER_REPO="${GITHUB_REPOSITORY}"
+
+          echo "Looking for release tagged ${TAG}..."
+          release_id=""
+          for i in 1 2 3 4 5 6; do
+            release_id=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
+              "https://api.github.com/repos/${OWNER_REPO}/releases?per_page=20" \
+              | python3 -c "
+          import sys, json
+          releases = json.load(sys.stdin)
+          for r in releases:
+              if r.get('tag_name') == '${TAG}':
+                  print(r['id'])
+                  break
+          ")
+            if [ -n "$release_id" ]; then
+              break
+            fi
+            echo "Release not found yet, retrying in 10s..."
+            sleep 10
+          done
+
+          if [ -z "$release_id" ]; then
+            echo "ERROR: could not find a release tagged ${TAG}"
+            exit 1
+          fi
+
+          echo "Publishing release ID ${release_id} (${TAG}) as latest..."
+          http_code=$(curl -s -o /tmp/publish_resp.json -w "%{http_code}" -X PATCH \
+            -H "Authorization: token ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${OWNER_REPO}/releases/${release_id}" \
+            -d '{"draft": false, "make_latest": "true"}')
+
+          if [ "$http_code" -ge 300 ]; then
+            echo "ERROR: failed to publish release (HTTP ${http_code})"
+            cat /tmp/publish_resp.json
+            exit 1
+          fi
+          echo "Release ${TAG} published and marked as latest."
