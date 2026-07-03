@@ -152,10 +152,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.22.0
-          cache: yarn
+          cache: pnpm
 
-      - name: Install Yarn dependencies
-        run: yarn install --frozen-lockfile
+      - name: Install pnpm dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: (linux) Install bsdtar if needed
         if: matrix.platform == 'linux'
@@ -167,7 +167,7 @@ jobs:
         id: buildstep
         uses: StarUbiquitous/command-output@v1.0.1
         with:
-          run: yarn publish-${{ matrix.platform }}
+          run: pnpm run publish-${{ matrix.platform }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -215,11 +215,16 @@ jobs:
           cache: true
           log_level: debug
 
-      - name: Install Yarn dependencies
-        run: yarn install --immutable
+      - name: Enable Corepack
+        run: |
+          npm install -g corepack@latest --force
+          corepack enable
+
+      - name: Install pnpm dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Generate release manifest
-        run: yarn generate-release-manifest
+        run: pnpm run generate-release-manifest
 
       - name: Patch manifest to use local dir source (bypasses flatpak-builder LFS limitation)
         run: |
@@ -249,7 +254,7 @@ jobs:
           EOF
 
       - name: Generate node sources
-        run: yarn generate-node-sources
+        run: pnpm run generate-node-sources
 
       - name: Build flatpak
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
