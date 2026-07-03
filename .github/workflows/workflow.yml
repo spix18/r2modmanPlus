@@ -226,7 +226,7 @@ jobs:
       - name: Generate release manifest
         run: pnpm run generate-release-manifest
 
-      - name: Patch manifest to use local dir source (bypasses flatpak-builder LFS limitation)
+      - name: Patch manifest (local dir source + non-interactive pnpm install)
         run: |
           python3 - <<'EOF'
           import yaml, sys
@@ -238,6 +238,7 @@ jobs:
           for module in manifest.get("modules", []):
               if not isinstance(module, dict):
                   continue
+
               for source in module.get("sources", []):
                   if not isinstance(source, dict):
                       continue
@@ -246,6 +247,11 @@ jobs:
                       source["type"] = "dir"
                       source["path"] = ".."
                       break
+
+              if module.get("name") == "r2modmanPlus":
+                  env = module.setdefault("build-options", {}).setdefault("env", {})
+                  # pnpm refuses to purge node_modules without a TTY unless CI=true is set
+                  env["CI"] = "true"
 
           with open(manifest_path, "w") as f:
               yaml.dump(manifest, f, allow_unicode=True, sort_keys=False)
