@@ -197,17 +197,10 @@ jobs:
     container:
       image: ghcr.io/flathub-infra/flatpak-github-actions:freedesktop-25.08
       options: --privileged
+    permissions:
+      contents: write
     steps:
-      - name: Install Git LFS
-        run: |
-          mkdir -p /usr/local/bin
-          curl -fsSL https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz \
-            | tar -xz --strip-components=1 -C /usr/local/bin git-lfs-3.6.1/git-lfs
-          git lfs install
-
       - uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - uses: jdx/mise-action@v3
         with:
@@ -215,86 +208,31 @@ jobs:
           cache: true
           log_level: debug
 
-      - name: Enable Corepack
-        run: |
-          npm install -g corepack@latest --force
-          corepack enable
-
-      - name: Install pnpm dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Generate release manifest
-        run: pnpm run generate-release-manifest
-
-      - name: Patch manifest (local dir source + non-interactive pnpm install)
-        run: |
-          python3 - <<'EOF'
-          import yaml, sys
-
-          manifest_path = "flatpak/io.github.ebkr.r2modman.release.yaml"
-          with open(manifest_path, "r") as f:
-              manifest = yaml.safe_load(f)
-
-          for module in manifest.get("modules", []):
-              if not isinstance(module, dict):
-                  continue
-
-              for source in module.get("sources", []):
-                  if not isinstance(source, dict):
-                      continue
-                  if source.get("type") == "git" and "github.com/ebkr/r2modmanPlus" in source.get("url", ""):
-                      source.clear()
-                      source["type"] = "dir"
-                      source["path"] = ".."
-                      break
-
-              if module.get("name") == "r2modmanPlus":
-                  env = module.setdefault("build-options", {}).setdefault("env", {})
-                  # pnpm refuses to purge node_modules without a TTY unless CI=true is set
-                  env["CI"] = "true"
-
-          with open(manifest_path, "w") as f:
-              yaml.dump(manifest, f, allow_unicode=True, sort_keys=False)
-
-          print("Manifest patched successfully.")
-          EOF
-
-      - name: Generate node sources
-        run: pnpm run generate-node-sources
-
       - name: Build flatpak
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
           bundle: r2modman.flatpak
-          manifest-path: flatpak/io.github.ebkr.r2modman.release.yaml
+          manifest-path: flatpak/io.github.ebkr.r2modman.yaml
 
-      - name: Upload Flatpak bundle to GitHub Release
+      - name: Compute release tag
+        id: tag
+        run: echo "tag=v$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Mark checkout as safe for git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Append standalone flatpak to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_NAME: ${{ steps.tag.outputs.tag }}
         run: |
-          VERSION="$(node -p "require('./package.json').version")"
-          TAG="v${VERSION}"
-          OWNER_REPO="${GITHUB_REPOSITORY}"
-          release_id=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" \
-            "https://api.github.com/repos/${OWNER_REPO}/releases?per_page=10" \
-            | python3 -c "
-          import sys, json
-          releases = json.load(sys.stdin)
-          for r in releases:
-              if r.get('tag_name') == '${TAG}' or r.get('name','').endswith('${VERSION}'):
-                  print(r['id'])
-                  break
-          ")
-          if [ -z "$release_id" ]; then
-            echo "No release found for ${TAG}, skipping upload"
-            exit 1
-          fi
-          echo "Found release ID: ${release_id} for ${TAG}"
-          curl -s -X POST \
-            -H "Authorization: token ${GITHUB_TOKEN}" \
-            -H "Content-Type: application/octet-stream" \
-            --data-binary @r2modman.flatpak \
-            "https://uploads.github.com/repos/${OWNER_REPO}/releases/${release_id}/assets?name=r2modman.flatpak"
+          gh release upload "$TAG_NAME" r2modman.flatpak --clobber
+
+  deploy-flatpak-repo:
+    name: Deploy Flatpak repo
+    needs: build-flatpak
+    uses: ./.github/workflows/deploy-flatpak-repo.yml
+    secrets: inherit
 
   publish-release:
     name: Publish release
