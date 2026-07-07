@@ -228,12 +228,6 @@ jobs:
         run: |
           gh release upload "$TAG_NAME" r2modman.flatpak --clobber
 
-  deploy-flatpak-repo:
-    name: Deploy Flatpak repo
-    needs: build-flatpak
-    uses: ./.github/workflows/deploy-flatpak-repo.yml
-    secrets: inherit
-
   publish-release:
     name: Publish release
     needs: [build, build-flatpak]
